@@ -18,3 +18,12 @@ This repository illustrates how to use MFKDF to build a strong trustless decentr
 Based on the 2017 [eth-hot-wallet](https://github.com/PaulLaux/eth-hot-wallet) project by [Paul Laux](https://github.com/PaulLaux).
 
 Copyright ©2022 Vivek Nair, ©2017 Paul Laux • [MIT](https://github.com/multifactor/mfkdf-wallet-demo/blob/master/LICENSE)
+
+## 运行
+
+1. `pn i`
+2. `pn start:tunnel`
+
+## 坑
+
+1. 某些服务端接口是不通的，像发邮件之类的接口，需要手动输出看看结果，然后将地址放到浏览器地址栏中
